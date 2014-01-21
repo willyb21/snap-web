@@ -9,7 +9,7 @@ Snap Web is a web application for [Snapchat](http://www.snapchat.com/) that uses
 
 The best way to manage dependencies for any web application is with a virtual machine. I went ahead and set up a [Ruby development box](https://github.com/mhenry/ruby-devbox) just for this project. To get started, type the following commands on the host machine:
 
-    git clone git@github.com:mhenry/ruby-devbox.git
+    git clone https://github.com/mhenry/ruby-devbox.git
     cd ruby-devbox
     git submodule init
     git submodule update
@@ -20,7 +20,7 @@ The best way to manage dependencies for any web application is with a virtual ma
 
 The following commands will download the code, install the gem dependencies, and run the web server.
 
-    git clone git@github.com:mhenry/snap-web.git
+    git clone https://github.com/mhenry/snap-web.git
     cd snap-web
     bundle install
-    ruby app.py
+    ruby app.rb
